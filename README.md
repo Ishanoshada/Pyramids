@@ -117,9 +117,38 @@ You can access pyramid data in the `Pyramids.json` file. Here's an example of th
 ]
 ```
 
-## Data Analytics
+## Data Analysis Script
 
-The `Pyramids.json` file is a treasure trove of information. With the power of Python and data analysis libraries, you can uncover insights about these ancient structures.
+To explore and analyze the data in `Pyramids.json`, you can use the following Python script:
+
+```python
+import json
+
+# Load the JSON data from the file
+with open('Pyramids.json', 'r') as json_file:
+    data = json.load(json_file)
+
+# Define a dictionary to map field names to their respective units
+units = {
+    "height": "meters",
+    "base_length": "meters",
+    "slope_angle": "degrees",
+    "coordinates": "latitude and longitude",
+    # Add more fields and units as needed
+}
+
+# Iterate through each pyramid entry in the JSON data
+for pyramid in data:
+    print(f"Pyramid: {pyramid['name']}")
+    
+    # Iterate through the fields and print their names and units
+    for field, unit in units.items():
+        if field in pyramid:
+            print(f"{field.capitalize()}: {pyramid[field]} {unit}")
+    
+    print("\n" + "*" * 6)
+```
+
 
 You can explore aspects such as:
 
