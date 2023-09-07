@@ -42,9 +42,44 @@ To use the provided Python scripts, make sure you have Python installed on your 
 
 You can use the Python scripts to perform calculations on pyramids or explore the pyramid data in the JSON file. Refer to the specific script's usage instructions for details.
 
-## Examples
 
-### JSON Data
+## Example Usage
+
+### 1. Using pyramids.py
+
+You can use the `pyramids.py` script to calculate the properties of a pyramid with custom dimensions. Here's an example:
+
+```python
+# Create an instance of a pyramid
+my_pyramid = Pyramid(230.4, 146.6)
+
+# Calculate and print its volume, surface area, and slope angle
+print("Pyramid Base Length:", my_pyramid.base_length)
+print("Pyramid Height:", my_pyramid.height)
+print("Pyramid Volume:", my_pyramid.volume())
+print("Pyramid Surface Area:", my_pyramid.surface_area())
+print("Pyramid Slope Angle:", slope_angle(my_pyramid.height, my_pyramid.base_length))
+```
+
+### 2. Using create_pyramidV2.py
+
+With `create_pyramidV2.py`, you can input your own pyramid dimensions and get calculations for a custom pyramid. Here's how:
+
+```python
+# Get user input for pyramid dimensions
+base_length = float(input("Enter the base length of the pyramid (in meters): "))
+height = float(input("Enter the height of the pyramid (in meters): "))
+num_sides = int(input("Enter the number of sides of the pyramid: "))
+
+# ... (follow the on-screen prompts)
+
+# Display the results
+print("Number of Blocks Needed:", every_decimal(blocks_needed))
+print("Pyramid Volume:", every_decimal(user_pyramid.volume()))
+print("Pyramid Slope Angle (degrees):", every_decimal(slope_angle_degrees))
+```
+
+### 3. JSON Data
 
 You can access pyramid data in the `Pyramids.json` file. Here's an example of the data format:
 
