@@ -149,6 +149,28 @@ for pyramid in data:
     print("\n" + "*" * 6)
 ```
 
+Sample Output:
+```
+Pyramid: Great Pyramid of Giza
+Height: 146.6 meters
+Base_length: 230.4 meters
+Slope_angle: 51.83932144375253 degrees
+Coordinates: 29.97935° N, 31.13439° E
+******
+Pyramid: Pyramid of Khafre
+Height: 136.4 meters
+Base_length: 215.5 meters
+Slope_angle: 51.69281630505731 degrees
+Coordinates: 29.980° N, 31.134° E
+******
+Pyramid: Pyramid of Menkaure
+Height: 65.5 meters
+Base_length: 105 meters
+Slope_angle: 51.28689336173646 degrees
+Coordinates: 29.979° N, 31.134° E
+******
+```
+
 
 You can explore aspects such as:
 
