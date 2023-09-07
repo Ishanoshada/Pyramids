@@ -2,6 +2,8 @@
 
 ![Pyramids](https://img.shields.io/badge/Pyramids-Exploration-brightgreen)
 
+![imgpyr](https://raw.githubusercontent.com/Ishanoshada/Ishanoshada/main/ss/d7228710f52a957f05a7ee5e3aa51d8e.jpg)
+
 ## Table of Contents
 
 - [About](#about)
@@ -184,6 +186,7 @@ You can explore aspects such as:
 
 By applying data analytics techniques, you can shed light on the historical and architectural significance of pyramids worldwide.
 
+![analysis](https://github.com/Ishanoshada/Ishanoshada/blob/main/ss/92f733824bab4ae6b632a9db6a55cf26.jpg?raw=true)
 ## Contributing
 
 Contributions are welcome! If you'd like to improve or expand this project, please feel free to submit pull requests.
