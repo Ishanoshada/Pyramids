@@ -13,7 +13,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Data Analytics](#analytics)
+- [Data Analytics](#analysis)
 - [Contributing](#contributing)
 
 ## About
