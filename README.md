@@ -1,6 +1,7 @@
 # Pyramids: Unveiling Ancient Marvels
 
 ![Pyramids](https://img.shields.io/badge/Pyramids-Exploration-brightgreen)
+![Python](https://img.shields.io/badge/language-Python-blue?logo=python)
 
 ![imgpyr](https://raw.githubusercontent.com/Ishanoshada/Ishanoshada/main/ss/d7228710f52a957f05a7ee5e3aa51d8e.jpg)
 
@@ -119,7 +120,7 @@ You can access pyramid data in the `Pyramids.json` file. Here's an example of th
 ]
 ```
 
-## Data Analysis Script
+## Data Analysis
 
 To explore and analyze the data in `Pyramids.json`, you can use the following Python script:
 
