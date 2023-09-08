@@ -13,7 +13,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Data Analytics](#data-analytics)
+- [Data Analytics](#analytics)
 - [Contributing](#contributing)
 
 ## About
@@ -120,7 +120,7 @@ You can access pyramid data in the `Pyramids.json` file. Here's an example of th
 ]
 ```
 
-## Data Analysis
+## Analysis
 
 To explore and analyze the data in `Pyramids.json`, you can use the following Python script:
 
