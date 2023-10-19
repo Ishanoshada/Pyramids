@@ -188,6 +188,9 @@ You can explore aspects such as:
 By applying data analytics techniques, you can shed light on the historical and architectural significance of pyramids worldwide.
 
 ![analysis](https://github.com/Ishanoshada/Ishanoshada/blob/main/ss/92f733824bab4ae6b632a9db6a55cf26.jpg?raw=true)
+
+**Repository Views** ![Views](https://profile-counter.glitch.me/PyramidsIsh/count.svg)
+
 ## Contributing
 
 Contributions are welcome! If you'd like to improve or expand this project, please feel free to submit pull requests.
